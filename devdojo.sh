@@ -1,12 +1,8 @@
 #!/bin/bash
 
-# ask the user for their name
-read -p "what is your name?" name
-
-# greet the user
-echo "Hi there $name"
-echo "welcome to Gisc605"
-echo "have a great wednesday night!"
+echo "Argument 1 is $1"
+echo "Argument 2 is $2"
+echo "Argument 3 is $3"
 
 
 
